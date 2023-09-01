@@ -1,0 +1,49 @@
+<html>
+  
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js">
+    </script>
+</head>
+  
+<body>
+    <div class="container">
+        <h1>Charles' Tip <br>Calculator</h1>
+        <div class="wrapper">
+  
+            <p>How much was your bill?</p>
+            <label for="fname">Rs.</label>
+            <input type="text" id="amount"><br>
+
+
+
+            <p>How was the service ?</p>
+            <select id="services">
+                <option selected disabled hidden>
+                    --Choose a option--
+                </option>
+                <option value="0.30">30% - Outstanding</option>
+                <option value="0.20">20% - Good</option>
+                <option value="0.15">15% - It was okay</option>
+                <option value="0.10">10% - Bad</option>
+                <option value="0.05">5% - Terrible</option>
+            </select>
+
+
+            <p>How many people are sharing the bill?</p>
+            <input type="text" id="persons" >
+            <label for="people">People</label>
+
+            <button id="calculate">Calculate!</button>
+
+        </div>
+  
+        <div class="tip">
+            <p>Tip Amount</p>
+            <span id="total">0</span>₹
+            <span id="each">each</span>
+        </div>
+    </div>
+</body>
+  
+</html>
